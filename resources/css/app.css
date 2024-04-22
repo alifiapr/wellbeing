@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 700;
+        src: url('./fonts/Axiforma-Bold.woff2') format('woff2'), url('./fonts/Axiforma-Bold.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./fonts/Axiforma-Regular.woff2') format('woff2'), url('./fonts/Axiforma-Regular.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 500;
+        src: url('./fonts/Axiforma-Medium.woff2') format('woff2'), url('./fonts/Axiforma-Medium.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 600;
+        src: url('./fonts/Axiforma-SemiBold.woff2') format('woff2'), url('./fonts/Axiforma-SemiBold.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 300;
+        src: url('./fonts/Axiforma-Light.woff2') format('woff2'), url('./fonts/Axiforma-Light.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 200;
+        src: url('./fonts/Axiforma-Thin.woff2') format('woff2'), url('./fonts/Axiforma-Thin.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 800;
+        src: url('./fonts/Axiforma-ExtraBold.woff2') format('woff2'), url('./fonts/Axiforma-ExtraBold.woff') format('woff');
+    }
+    @font-face{
+        font-family: 'Axiforma';
+        font-style: normal;
+        font-weight: 900;
+        src: url('./fonts/Axiforma-Black.woff2') format('woff2'), url('./fonts/Axiforma-Black.woff') format('woff');
+    }
+
+}
